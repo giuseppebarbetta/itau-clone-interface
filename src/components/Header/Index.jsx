@@ -26,7 +26,7 @@ export default function Header() {
       </C.Container>
       <C.ButtonAccessMenu>
         <img src={IconUser} alt="icone-user" />
-        <span>Acessar</span>
+        <span>Acessar conta</span>
       </C.ButtonAccessMenu>
     </C.Header>
   );

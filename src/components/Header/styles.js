@@ -3,16 +3,17 @@ import styled from "styled-components";
 export const Header = styled.header`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 80px;
   align-items: center;
   max-width: 100vw;
   height: 80px;
-  padding: 0 50px;
   background-color: #ec7000;
 `;
 
 export const Container = styled.div`
-  width: 100%;
+  width: fit-content;
+  margin: 0;
 `;
 
 export const Img = styled.img`
