@@ -20,12 +20,6 @@ export const Container = styled.div`
   margin: 0 auto;
 `;
 
-export const DivLeft = styled.div`
-  flex: 1;
-  max-width: 500px;
-  margin-right: 40px;
-`;
-
 export const H1 = styled.h1`
   color: #ffffff;
   font-size: 72px;
@@ -42,7 +36,7 @@ export const P = styled.p`
 
 export const DivButtons = styled.div`
   display: flex;
-  margin-bottom: 96px;
+  margin-bottom: 71px;
   gap: 10px;
 `;
 
@@ -61,6 +55,7 @@ export const ButtonExplorer = styled.button`
   border: none;
   cursor: pointer;
   background: transparent;
+  margin-bottom: 10px;
 
   font-weight: bold;
   font-size: 14px;

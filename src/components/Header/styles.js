@@ -49,7 +49,7 @@ export const ButtonAccessMenu = styled.button`
   justify-content: center;
   padding: 0 17px;
   gap: 10px;
-  height: 70%;
+  height: 53px;
 
   cursor: pointer;
 
