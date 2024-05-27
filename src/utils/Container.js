@@ -8,4 +8,8 @@ export const Container = styled.div`
   max-width: 1246px;
   padding: 0 50px;
   margin: 0 auto;
+
+  @media (max-width: 680px) {
+    padding: 0 17px;
+  }
 `;

@@ -9,6 +9,10 @@ export const Header = styled.header`
   max-width: 100vw;
   height: 80px;
   background-color: #ec7000;
+
+  @media (max-width: 680px) {
+    justify-content: center;
+  }
 `;
 
 export const Container = styled.div`
@@ -27,6 +31,10 @@ export const Ul = styled.ul`
   justify-content: center;
   gap: 40px;
   list-style-type: none;
+
+  @media (max-width: 775px) {
+    gap: 17px;
+  }
 `;
 
 export const ButtonItemMenu = styled.button`
@@ -41,6 +49,13 @@ export const ButtonItemMenu = styled.button`
   border: none;
   font-weight: bold;
   color: #ffffff;
+
+  @media (max-width: 775px) {
+    gap: 5px;
+  }
+  @media (max-width: 615px) {
+    display: none;
+  }
 `;
 
 export const ButtonAccessMenu = styled.button`

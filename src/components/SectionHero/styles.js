@@ -8,6 +8,10 @@ export const Section = styled.section`
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  @media (max-width: 1221px) {
+    height: 100%;
+  }
 `;
 
 export const Container = styled.div`
@@ -20,11 +24,32 @@ export const Container = styled.div`
   margin: 0 auto;
 `;
 
+export const ContainerHero = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1246px;
+  padding: 0 50px;
+  margin: 0 auto;
+
+  @media (max-width: 935px) {
+    flex-direction: column;
+  }
+`
+
 export const H1 = styled.h1`
   color: #ffffff;
   font-size: 72px;
   font-weight: bold;
   margin-bottom: 16px;
+
+  @media (max-width: 1050px) {
+    font-size: 53px;
+  }
+  @media (max-width: 935px) {
+    font-size: 40px;
+  }
 `;
 
 export const P = styled.p`
@@ -32,6 +57,10 @@ export const P = styled.p`
   font-size: 20px;
   max-width: 408px;
   margin-bottom: 32px;
+
+  @media (max-width: 935px) {
+    max-width: 325px;
+  }
 `;
 
 export const DivButtons = styled.div`
@@ -44,6 +73,12 @@ export const Button = styled.button`
   background: transparent;
   cursor: pointer;
   border: none;
+
+  @media (max-width: 1050px) {
+    img {
+      width: 100%;
+    }
+  }
 `;
 
 export const ButtonExplorer = styled.button`
@@ -61,3 +96,17 @@ export const ButtonExplorer = styled.button`
   font-size: 14px;
   color: #ffffff;
 `;
+
+export const ImgHero = styled.img`
+  @media (max-width: 1221px) {
+    width: 65%;
+  }
+
+  @media (max-width: 1080px) {
+    width: 50%;
+  }
+
+  @media (max-width: 935px) {
+    width: 80%;
+  }
+`

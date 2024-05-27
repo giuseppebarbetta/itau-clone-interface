@@ -15,30 +15,32 @@ export default function SectionHero() {
   return (
     <C.Section>
       <Container>
-        <DivLeft>
-          <div>
-            <C.H1>Tenha seu Banco na palma da mão</C.H1>
-            <C.P>
-              Todas as operações que você precisa em um só lugar. Simples,
-              completo e feito para você
-            </C.P>
-          </div>
-          <C.DivButtons>
-            <C.Button>
-              <img src={ImgAppleStore} alt="Apple store" />
-            </C.Button>
-            <C.Button>
-              <img src={ImgGooglePlay} alt="Apple store" />
-            </C.Button>
-          </C.DivButtons>
+        <C.ContainerHero>
+          <DivLeft>
+            <div>
+              <C.H1>Tenha seu Banco na palma da mão</C.H1>
+              <C.P>
+                Todas as operações que você precisa em um só lugar. Simples,
+                completo e feito para você
+              </C.P>
+            </div>
+            <C.DivButtons>
+              <C.Button>
+                <img src={ImgAppleStore} alt="Apple store" />
+              </C.Button>
+              <C.Button>
+                <img src={ImgGooglePlay} alt="Apple store" />
+              </C.Button>
+            </C.DivButtons>
 
-          <C.ButtonExplorer onClick={handleClick}>
-            <img src={ArrowDown} alt="arrow down" />
-            <span>Continue explorando</span>
-          </C.ButtonExplorer>
-        </DivLeft>
+            <C.ButtonExplorer onClick={handleClick}>
+              <img src={ArrowDown} alt="arrow down" />
+              <span>Continue explorando</span>
+            </C.ButtonExplorer>
+          </DivLeft>
 
-        <img src={WomanImg} alt="woman with cellphone" />
+          <C.ImgHero src={WomanImg} alt="woman with cellphone" />
+        </C.ContainerHero>
       </Container>
     </C.Section>
   );

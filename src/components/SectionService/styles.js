@@ -6,6 +6,20 @@ export const Section = styled.section`
   padding-top: 128px;
 `;
 
+export const ContainerService = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1246px;
+  padding: 0 50px;
+  margin: 0 auto;
+
+  @media (max-width: 865px) {
+    flex-direction: column;
+  }
+`
+
 export const Span = styled.span`
   display: block;
   font-size: 14px;
@@ -20,6 +34,10 @@ export const H1 = styled.h1`
   color: #33303e;
   margin-bottom: 24px;
   line-height: 61px;
+
+  @media (max-width: 541px) {
+    font-size: 40px;
+  }
 `;
 
 export const P = styled.p`
@@ -51,4 +69,10 @@ export const DivRight = styled.div`
   display: flex;
   justify-content: center;
   width: 35vw;
+
+  @media (max-width: 431px) {
+    img {
+      width: 100%;
+    }
+  }
 `;
