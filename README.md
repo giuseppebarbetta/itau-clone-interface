@@ -8,7 +8,7 @@
       <li><strong>Sessões:</strong> Encontre as principais sessões com facilidade no Header da aplicação.</li>
       <li><strong>Download:</strong> Botões para download do aplicativo em IOS ou Android.</li>
       <li><strong>Scroll:</strong> Ao clicar em 'Continue explorando' você é redirecionado para parte inferior da aplicação.</li>
-      <li><strong>Responsividade:</strong> A aplicação é responsiva em todos os dispositivos. (⚠️ ainda não implementado 100%)</li>
+      <li><strong>Responsividade:</strong> A aplicação é responsiva em todos os dispositivos. </li>
   </ul><br>
 
   <h2>Previa:</h2>
@@ -45,7 +45,7 @@
   <ol>
       <li>Clone este repositório: <code>git clone https://github.com/giuseppebarbetta/itau-clone-interface</code></li>
       <li>Instale as dependências com <code>yarn</code>.</li>
-      <li>Inicie ambos os projetos com <code>yarn start</code> pelo terminal.</li>
+      <li>Inicie ambos os projetos com <code>yarn dev</code> pelo terminal.</li>
   </ol><br>
 
   <h2>Contribuição</h2>
